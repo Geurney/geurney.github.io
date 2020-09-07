@@ -1,71 +1,54 @@
-Jekyll Clean Dark
-============
+# 起源
+该主题借鉴了Pavel Makhov的 [jekyll-clean-dark](https://github.com/streetturtle/jekyll-clean-dark)，将其内容做了hexo适配，并增加了属于自己的东西。
 
-<p align="center">
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/streetturtle/jekyll-clean-dark">
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/streetturtle/jekyll-clean-dark">
- <img alt="Twitter URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fstreetturtle%2Fjekyll-clean-dark">
-</p>
+# 效果
+如果想查看效果，可以在[我的博客](https://www.howardliu.cn/)中查看效果。
+如果想查看手机效果，可以扫下面的二维码。
 
-Dark and Clean Jekyll theme which is easy to customize!
+![https://www.howardliu.cn/](https://www.howardliu.cn/images/qr-code/howardliu-qrcode.png)
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
-* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
+![https://www.howardliu.cn/](https://www.howardliu.cn/images/clean-dark.png)
 
-![preview1](./assets/images/preview1.jpg)
-![preview2](./assets/images/preview2.jpg)
-![preview3](./assets/images/preview3.jpg)
+# 使用
+## 1. 安装
+```sh
+$ git clone https://github.com/howardliu-cn/hexo-theme-clean-dark.git themes/hexo-theme-clean-dark
+```
 
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
+## 2. 配置
+修改hexo根目录下的 _config.yml，将theme值改为hexo-theme-clean-dark。
 
-Some cool features:
+到这一步就可以使用该主题了，不过通常我们都想进行个性化定制，那就继续下面的内容。
 
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrica](http://metrica.yandex.com);
- - Blog tags - check the section below;
- - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
- - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
- - Bootstrap 4 and FontAwesome 5!
- - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
+## 3. 个性化定制(themes/hexo-theme-clean-dark/_config.yml)
+### 3.1 评论
+valine评论: comment.valine
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+### 3.2 阅览量
+valine阅览量: comment.valine
 
-Installation
-============
+### 3.3 分析
+百度分析：baidu_analytics
+谷歌分析：google_analytics
 
-If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
+### 3.4 个性化图标favicon
+修改 favicon 的值，指向自己的个性化图标的位置
 
-After you will have to set up your `_config.yml`
+### 3.5 邮箱email
+email 值为自己的邮箱地址，用于在底部和seo中显示邮箱内容。
 
-I tried to setup gem installation, but it doesn't work well as theme has many customizations. So I wouldn't recommend to use gem.
- 
-Blog tags
-=========
+### 3.6 菜单menu
+可以自定义menu是否显示，和增加自己更多的菜单。
 
-To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
+### 3.7 右侧挂件widgets
+这是一些小工具挂件，在widgets中配置是否显示。其中包括目录categories、标签云tagcloud、标签tags、归档archives、最近更新recent_posts、最近评论recent_comments、友情链接links。
 
-License
-=======
+### 3.8 社交内容social
+这是用于在底部显示的内容，目前包括github、StackOverflow。
 
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+### 3.9 友情链接links
+这部分是显示友链的部分，title是用于显示，url表示链接位置。
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
-
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
-
-This theme includes the following files which are the properties of their
-respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+# TODO
+- 搜索
+- 标签云
