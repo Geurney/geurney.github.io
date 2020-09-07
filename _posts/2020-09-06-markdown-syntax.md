@@ -49,7 +49,7 @@ tags:
 
 Code link [`code`](#Head1).
 
-![Image](./assets/images/ava.jpg "ava jpg")
+![Image](/assets/images/ava.jpg "ava jpg")
 
 [![ImageLink](/assets/images/ava.jpg "ImageLink")](https://geurney.github.io/)
 
