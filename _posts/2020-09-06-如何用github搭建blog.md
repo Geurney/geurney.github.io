@@ -10,7 +10,7 @@ tags:
 
 
 
-# 创建仓库
+## 创建仓库
 [官方教程](https://docs.github.com/cn/github/working-with-github-pages/creating-a-github-pages-site)
 
 首先创建一个仓库，仓库名必须为*\<user\>.github.io*。这个库就用来存储blog。
@@ -32,7 +32,7 @@ GitHub Pages默认使用静态站点生成器Jekyll，不支持服务器端语�
 
 
 
-# 使用jekyll-clean-dark主题
+## 使用jekyll-clean-dark主题
 [GitHub链接](https://github.com/streetturtle/jekyll-clean-dark)
 
 [演示和使用说明](http://pavelmakhov.com/jekyll-clean-dark/)
@@ -53,7 +53,7 @@ GitHub Pages默认使用静态站点生成器Jekyll，不支持服务器端语�
 ````  
 
 
-# 使用Atom Markdown编辑器
+## 使用Atom Markdown编辑器
 [下载链接](https://atom.io/)
 
 打开Atom，添加_posts和tag文件夹为project，就可以编写文章了
@@ -64,14 +64,14 @@ File->Settings->Packages 搜索Markdown Preview，在其Settings里取消Use Git
 
 
 
-# 编写Blog文章
+## 编写Blog文章
 参见[Markdown语法](/_posts/2020/09/06/Markdown语法)
 
-通过Atom在_posts文件夹下新建md文件，便可以开始编写文章。写好后通过ctrl+s保存文章。  
+通过Atom在_posts文件夹下新建md文件，便可以开始编写文章。写好后通过ctrl+s保存文章。    
 
 
 
-# 发布文章
+## 发布文章
 - 点击Atom右下角的Git按钮弹出git面板
 - 点击右上角的Stage All，填写Commit message
 - 然后点击Commit to master
