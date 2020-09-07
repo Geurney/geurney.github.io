@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+Jekyll Clean Dark
+============
 
-You can use the [editor on GitHub](https://github.com/Geurney/geurney.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/streetturtle/jekyll-clean-dark">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/streetturtle/jekyll-clean-dark">
+ <img alt="Twitter URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fstreetturtle%2Fjekyll-clean-dark">
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dark and Clean Jekyll theme which is easy to customize!
 
-### Markdown
+* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
+* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
+* See it [in action on my own blog](http://pavelmakhov.com).
+* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![preview1](./assets/images/preview1.jpg)
+![preview2](./assets/images/preview2.jpg)
+![preview3](./assets/images/preview3.jpg)
 
-```markdown
-Syntax highlighted code block
+This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
+sidebar.
 
-# Header 1
-## Header 2
-### Header 3
+Some cool features:
 
-- Bulleted
-- List
+ - [Disqus](http://disqus.com) as a comments system;
+ - [Google Analytics](http://www.google.com/analytics/);
+ - [Yandex Metrica](http://metrica.yandex.com);
+ - Blog tags - check the section below;
+ - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
+ - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
+ - Bootstrap 4 and FontAwesome 5!
+ - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
 
-1. Numbered
-2. List
+All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
-**Bold** and _Italic_ and `Code` text
+Installation
+============
 
-[Link](url) and ![Image](src)
-```
+If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
+If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+After you will have to set up your `_config.yml`
 
-### Jekyll Themes
+I tried to setup gem installation, but it doesn't work well as theme has many customizations. So I wouldn't recommend to use gem.
+ 
+Blog tags
+=========
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Geurney/geurney.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
 
-### Support or Contact
+License
+=======
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The content of this theme is distributed and licensed under a
+[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+    This license lets others distribute, remix, tweak, and build upon your work,
+    even commercially, as long as they credit you for the original creation. This
+    is the most accommodating of licenses offered. Recommended for maximum
+    dissemination and use of licensed materials.
+
+In other words: you can do anything you want with this theme on any site, just please
+provide a link to the original theme on github.
+
+This theme includes the following files which are the properties of their
+respective owners:
+
+* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
+* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
+* js/jquery.min.js - [jquery](https://jquery.com)
