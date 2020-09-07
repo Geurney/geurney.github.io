@@ -1,1 +1,0 @@
-echo "---`nlayout: tag_index`ntag: Markdown `n---" > Markdown.md
