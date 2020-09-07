@@ -28,7 +28,7 @@ GitHub Pages默认使用静态站点生成器Jekyll，不支持服务器端语�
 - GitHub Pages 站点的软带宽限制为每月100G。
 - GitHub Pages 站点的软限制为每小时10次构建
 
-最后安装[GitHub Desktop](https://desktop.github.com/), 将仓库clone到本地。
+最后安装[GitHub Desktop](https://desktop.github.com/), 将仓库clone到本地。  
 
 
 
@@ -50,7 +50,7 @@ GitHub Pages默认使用静态站点生成器Jekyll，不支持服务器端语�
   layout: tag_index
   tag: tag_name
   ---
-````
+````  
 
 
 # 使用Atom Markdown编辑器
@@ -60,14 +60,14 @@ GitHub Pages默认使用静态站点生成器Jekyll，不支持服务器端语�
 
 快捷键ctrl+shift+m打开preview窗口，可以预览文件
 
-File->Settings->Packages 搜索Markdown Preview，在其Settings里取消Use GitHub.com style，就可以使preview也变成黑色主题
+File->Settings->Packages 搜索Markdown Preview，在其Settings里取消Use GitHub.com style，就可以使preview也变成黑色主题  
 
 
 
 # 编写Blog文章
 参见[Markdown语法](/_posts/2020/09/06/Markdown语法)
 
-通过Atom在_posts文件夹下新建md文件，便可以开始编写文章。写好后通过ctrl+s保存文章。
+通过Atom在_posts文件夹下新建md文件，便可以开始编写文章。写好后通过ctrl+s保存文章。  
 
 
 
